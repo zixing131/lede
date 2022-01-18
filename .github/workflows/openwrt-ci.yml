@@ -3,7 +3,7 @@
 #
 # Copyright (C) 2019 P3TERX
 #
-# Copyright (C) 2020 KFERMercer
+# Copyright (C) 2021 KFERMercer
 #
 name: OpenWrt-CI
 
@@ -107,3 +107,4 @@ jobs:
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
+          
